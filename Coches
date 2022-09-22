@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <Head>
+        <meta charset="UTF-8"><P align="right">.
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Coches Epicos</title>
+            <style>
+            body {
+                background: Url(https://w0.peakpx.com/wallpaper/202/165/HD-wallpaper-red-and-black-carbon-fiber.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+             }
+            </style>
+    </Head>
+    <body>
+        <center><h1><FONT COLOR="white">Los Coches mas Epicos</FONT></h1></center>
+        <FONT COLOR="white"><ol>
+            <li><h3><a href="https://es.wikipedia.org/wiki/Toyota_Corolla" target="_blank">Toyota Corolla</a></h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Toyota_Corolla_Hybrid_Sedan%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1338%29.jpg/245px-Toyota_Corolla_Hybrid_Sedan%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1338%29.jpg">
+            <li><h3><a href="https://es.wikipedia.org/wiki/Lamborghini_Veneno" target="_parent">Lamborghini Veneno</a></h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg/250px-Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg">
+            <li><h3><a href="https://es.wikipedia.org/wiki/Ferrari" target="_self">Ferrari</a></h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg/321px-Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg">
+            <li><h3><a href="https://es.wikipedia.org/wiki/Autom%C3%B3vil_superdeportivo" target="_top">Automóvil superdeportivo</a></h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mercedes_Benz_AMG_SLS_Black.jpg/220px-Mercedes_Benz_AMG_SLS_Black.jpg">
+            <li><h3><a href="https://es.wikipedia.org/wiki/Autom%C3%B3vil_de_carreras">Automóvil de carreras</a></h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bottas_Mercedes_W09_Testing_Barcelona.jpg/220px-Bottas_Mercedes_W09_Testing_Barcelona.jpg">
+        </ol></FONT>
+        
+        
+    </Body>
+</html>
