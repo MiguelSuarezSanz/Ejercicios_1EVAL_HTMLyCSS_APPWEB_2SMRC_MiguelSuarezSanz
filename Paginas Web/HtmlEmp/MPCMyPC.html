@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="https://static.wikia.nocookie.net/leagueoflegendsoficial/images/d/d2/League_of_legends_logo.png/revision/latest/scale-to-width-down/250?cb=20191021173733&path-prefix=es">
+  <title>MPC</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(255, 0, 0);
+      color: #000;
+    }
+
+    div.b {
+      width: 1341px;
+      background-color: rgb(0, 0, 0);
+      border: 5px solid #000;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    a:hover:not(.active) {
+      background-color: rgb(255, 255, 255);
+    }
+
+    #white {
+      color: white;
+    }
+
+    #colorless {
+      color: rgba(0, 0, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="b">
+    <h1 id="white">My Personal Computer</h1>
+  </div>
+  <ul>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCInicio.html?Search=a">Inicio</a>
+    </li>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCMyPC.html">My PC</a>
+    </li>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCComponentes.html">Componentes</a>
+    </li>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCSoporteTecnico.html">Soporte Tecnico</a>
+    </li>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCCarrito.html">Carrito</a>
+    </li>
+    <li>
+      <a href="file:///media/usertar/Mihaku%20HD/AW/Paginas%20Web/HtmlEmp/MPCUsuario.html">Usuario</a>
+    </li>
+  </ul>
+  <fieldset>
+    <legend>
+      <h3>My PC</h3>
+    </legend>
+    <form action="MyPc.php" method="get">
+      <h3>Procesador</h3>
+      <select name="Procesador" required>
+        <option value="0">Seleccione Procesador</option>
+        <optgroup label="Intel"></optgroup>
+        <option value="1">Intel 8</option>
+        <option value="2">Intel 7</option>
+        <optgroup label="AMD"></optgroup>
+        <option value="3">AMD 8</option>
+        <option value="4">AMD 7</option>
+      </select>
+      <h3>Placa Base</h3>
+      <select name="PlacaBase" required>
+        <option value="0">Seleccione Placa Base</option>
+        <option value="1">Placa Base 1</option>
+        <option value="2">Placa Base 2</option>
+        <option value="3">Placa Base 3</option>
+        <option value="4">Placa Base 4</option>
+      </select>
+      <h3>Disco Duro</h3>
+      <select name="DiscoDuro" required>
+        <option value="0">Seleccione Disco duro</option>
+        <option value="1">2 TB</option>
+        <option value="2">1 TB</option>
+        <option value="3">75 MB</option>
+        <option value="4">50 MB</option>
+      </select>
+      <h3>RAM</h3>
+      <select name="Ram" required>
+        <option value="0">Seleccione Disco Duro</option>
+        <option value="1">38 GB</option>
+        <option value="2">16 GB</option>
+        <option value="3">8 GB</option>
+        <option value="4">4 GB</option>
+      </select>
+      <h3>Ventilación</h3>
+      <select name="Ventilacion" require>
+        <option value="0">Seleccione Ventilación</option>
+        <option value="1">Aire</option>
+        <option value="2">Liquida</option>
+        <option value="3">Mixta</option>
+        <option value="4">Optimizada</option>
+      </select>
+      <h3>Caja</h3>
+      <select name="Caja" required>
+        <option value="0">Seleccione Caja</option>
+        <option value="1">Caja 1</option>
+        <option value="2">Caja 2</option>
+        <option value="3">Caja 3</option>
+        <option value="4">Caja 4</option>
+      </select>
+      <p>
+        <input type="checkbox" name="casilla">Montar
+        <input type="checkbox" name="casilla">Instalar Sistma
+      </p>
+      <select name="SO">
+        <option value="0">Seleccione Sistema Operativo</option>
+        <optgroup label="Windows"></optgroup>
+        <option value="1">Windows 11</option>
+        <option value="2">Windows 10</option>
+        <optgroup label="Linux"></optgroup>
+        <option value="3">Ubuntu</option>
+        <option value="4">Kubuntu</option>
+      </select>
+      <p><input type="checkbox" name="casilla">Instalar Programas</p>
+      <p>
+        <textarea name="texto" rows="5" cols="40" placeholder="Instalar Programas"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Añair al carrito">
+        <input type="reset" value="Borrar">
+      </p>
+    </form>
+  </fieldset>
+</body>
+
+</html>
