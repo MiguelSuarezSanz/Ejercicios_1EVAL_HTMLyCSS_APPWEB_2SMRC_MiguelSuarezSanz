@@ -1,0 +1,44 @@
+main {
+    border: black 5px solid;
+    margin: 10px;
+    padding: 10px;
+}
+main p:first-child {
+    color: red;
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+p.parrafo2:hover {
+    background-color: black;
+    color: white;
+}
+a:active{
+    font-size: xx-large;
+}
+input:focus {
+    border: red 5px inset;
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+q:lang(jp) {
+    quotes: "*" "*";
+}
+q:lang(es) {
+    quotes: "'" "'";
+}
+pre::first-line {
+    text-transform:uppercase;
+}
+pre::first-letter {
+    color: red;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,53 @@
+body {
+    color: black;
+    border-style: solid;
+}
+header {
+    border-style:solid;
+    border-color: red;
+    background-color: red;
+    height: 30%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 1000px;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+
+  a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+}
+nav {
+    border-style: solid;
+    border-color: yellow;
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+    float: left;
+}
+main {
+    border-style: solid;
+    height: 50%;
+    width: 69%;
+    background-color: white;
+    overflow-y: scroll;
+    float: left;
+}
+footer {
+    float: none;
+    border-style:solid;
+    height: 20%;
+    background-color: red;
+    border-color: red;
+    float: none;
+}

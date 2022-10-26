@@ -1,0 +1,86 @@
+body {
+    background-image: url();
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: gold;
+}
+h1 {
+    border-style: solid;
+    border-color: gray;
+    border-left-color: black;
+    border-left-width: 10px; 
+    border-left-style:groove;
+    padding: 1px 10px;
+}
+#green {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bosque.jpg/220px-Bosque.jpg);
+    color: rgb(145, 255, 0);
+    font-style: italic;
+    border-color: rgb(0, 255, 0);
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 100px;
+    width: 100px ;
+    text-align: center;
+    font-family: serif;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 10px; 
+    border-left-style:groove;
+}
+#white {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/132/539/small/beautiful-gold-abstract-christmas-background.jpg);
+    color: darkgoldenrod;
+    font-style: italic;
+    border-color: rgb(215, 255, 69);
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 100px;
+    width: 100px ;
+    text-align: center;
+    font-family:sans-serif;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 10px; 
+    border-left-style:groove;
+}
+#red {
+    color: rgb(255, 123, 0);
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-llama-fuego-naranja-ardiente_53876-142944.jpg?w=2000);
+    border-color: crimson;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+    font-family:monospace; 
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 10px; 
+    border-left-style:groove;
+}
+#black {
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-YkLM1EUoKoW9Xw7W2TgU4aAnd83vlbR9g&usqp=CAU);
+    border-color: rgb(51, 51, 51);
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 100px;
+    width: 150px;
+    text-align: center;
+    font-family: fantasy;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 10px; 
+    border-left-style:groove;
+}
+#blue {
+    color: rgb(0, 255, 242);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/194/202/447/5c1f991b2e7ae-wallpaper-preview.jpg);
+    border-color: rgb(17, 0, 255);
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+    font-family:cursive;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 10px; 
+    border-left-style:groove;
+}

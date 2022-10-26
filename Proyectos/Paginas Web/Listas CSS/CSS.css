@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/640px-NGC_4414_%28NASA-med%29.jpg);
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+#T {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bosque.jpg/220px-Bosque.jpg);
+    color: rgb(145, 255, 0);
+    font-style: italic;
+    border-color: rgb(0, 255, 0);
+    border-style: inset;
+    border-width: 1mm;
+    border-radius: 20px;
+    width: 50px ;
+    text-align: center;
+}
+#L {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/132/539/small/beautiful-gold-abstract-christmas-background.jpg);
+    color: rgb(134, 136, 0);
+    font-style: italic;
+    border-color: rgb(215, 255, 69);
+    border-style: inset;
+    border-width: 1mm;
+    border-radius: 20px;
+    width: 50px ;
+    text-align: center;
+}
+ul {
+    list-style-type: lower-greek;
+}
+ol {
+    list-style-type: upper-roman;
+}
+#F {
+    color: rgb(255, 0, 0);
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-llama-fuego-naranja-ardiente_53876-142944.jpg?w=2000);
+    border-color: rgb(255, 0, 0);
+    border-style: outset;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+}
+#D {
+    color: rgb(0, 0, 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-YkLM1EUoKoW9Xw7W2TgU4aAnd83vlbR9g&usqp=CAU);
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+#A{
+    color: rgb(0, 255, 242);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/194/202/447/5c1f991b2e7ae-wallpaper-preview.jpg);
+    border-color: rgb(17, 0, 255);
+    border-style: outset;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+#D4C {
+    list-style-image: url(Imagenes/D4C.png);
+}

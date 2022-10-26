@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+  }
+h1 {
+    color: rgb(13, 255, 162);
+    background-color: rgb(0, 19, 83);
+}
+h2 {
+    color: rgb(98, 0, 255);
+}
+h3 {
+    color: rgb(0, 136, 255);
+}
+li {
+    color: rgb(0, 255, 76);
+    font-size: larger;
+}
+img {
+    width: 1000px;
+}
