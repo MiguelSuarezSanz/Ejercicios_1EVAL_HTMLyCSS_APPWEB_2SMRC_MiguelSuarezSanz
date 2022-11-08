@@ -1,34 +1,47 @@
+* {
+    box-sizing: border-box;
+    
+}
 body {
     color: black;
-    border-style: solid;
+    border-style: none;
+    display: block;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 0px;
+    z-index: 10;
 }
 header {
     border-style:solid;
     border-color: red;
     background-color: red;
+    display: block;
     height: 30%;
 }
 nav {
     border-style: solid;
     border-color: yellow;
-    height: 50%;
-    width: 30%;
+    display: inline-block;
     background-color: yellow;
-    float: left;
+    height: 50%;
+    width: 10%;
+    margin: 0px;
+    z-index: 2;
 }
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px 0px 0px 1000px;
-    overflow: hidden;
+    width: auto;
+    height: auto;
 }
 li a {
     display: block;
     color: rgb(0, 0, 0);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float: left;
+    width: auto;
+    height: auto;
   }
 
   a:hover:not(.active) {
@@ -37,17 +50,16 @@ li a {
 }
 main {
     border-style: solid;
-    height: 50%;
-    width: 69%;
+    display: inline-block;
     background-color: white;
-    overflow-y: scroll;
-    float: left;
+    height: 50%;
+    width: 88%;
 }
 footer {
     float: none;
     border-style:solid;
-    height: 70%;
-    background-color: red;
-    border-color: red;
-    float: none;
+    height: 20%;
+    display: block;
+    background-color: blue;
+    border-color: blue;
 }

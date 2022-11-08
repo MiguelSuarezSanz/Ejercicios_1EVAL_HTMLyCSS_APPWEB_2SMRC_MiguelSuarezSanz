@@ -42,3 +42,7 @@ pre::first-letter {
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+li {
+    list-style-type: none;
+    display: inline;
+}
